@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "shinecoding"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/face_co.png"
   bio              : "배운 것을 기록하는 공간"
   location         : "Seoul, Korea"
   email            :
