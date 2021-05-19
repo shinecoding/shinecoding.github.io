@@ -1,0 +1,30 @@
+---
+title: "Model, ModelMap, ModelAndView 차이점"
+excerpt: "Model, ModelMap, ModelAndView 개념과 차이점"
+
+categories:
+  -Blog
+tags:
+  -Blog
+last_modified_at: 2021-05-19T04:30:00-05:00
+---
+
+
+
+## 개발 사전
+
+### Model, ModelMap, ModelAndView 차이점
+
+- Model, ModelMap은 데이터만 저장한다, ModelAndView는 데이터와 이동하고자하는 뷰페이지를 같이 저장한다.
+Model, ModelMap 차이점
+- Model - 인터페이스(비구현)
+- ModelMap - 클래스(구현체)
+
+Map 으로 받아서 ModelMap으로 내보내는 구조
+
+### model.**put**("a",a) model.**addAttribute**("a",a) 차이점은?
+
+- addAttribute는 "a"가 null이면 안됨
+
+### return "jsonView"
+ModelandView 는 리턴할 때 setViewName()에 뷰페이지를 지정할 수 있다.
